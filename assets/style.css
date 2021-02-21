@@ -18,6 +18,7 @@ body{margin:0;font:normal 16px 'Roboto Slab', sans-serif;background-color:#efefe
 -moz-box-shadow: 0px 0px 47px -4px rgba(75, 62, 115,1);
 box-shadow: 0px 0px 47px -4px rgba(75, 62, 115,1);
 }
+div.links { padding-bottom: 10px; }
 div.links a{color:#8e8e8e;transition: color 0.3s;}
 div.links a:hover{color:#343a40;transition: color 0.3s;}
 div.links a:active{color:##6c757d;}
@@ -68,5 +69,8 @@ div.links a:active{color:##6c757d;}
         box-shadow:none;
     }
     .right{border-radius:0 0 10px 10px;padding-top:15px;margin-top:-10px;}
+    .branding {
+        padding-left: 15px;
+    }
     .profile-wrapper{max-width:350px;}
 }
